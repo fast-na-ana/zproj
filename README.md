@@ -75,8 +75,8 @@ erDiagram
 **Prerequisites:** Node.js 18+, SQL Server Express (`localhost\SQLEXPRESS`) with Windows authentication, and ODBC Driver 17 for SQL Server.
 
 ```powershell
-git clone https://github.com/fast-na-ana/zproj.git
-cd zproj
+git clone https://github.com/fast-na-ana/campusride.git
+cd campusride
 .\setup-db.ps1     # creates the CampusRide database and runs both SQL phases
 .\setup.ps1        # installs backend and frontend dependencies
 ```
